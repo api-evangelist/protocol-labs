@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://protocol.ai/.well-known/*
+host: https://protocol.ai
+note: >-
+  protocol.ai is a corporate/research site with no API discovery surface. All
+  probed .well-known paths 308-redirect to www.protocol.ai and return 404. No
+  documents were found; recorded here for audit completeness (no apis.yml pointer).
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

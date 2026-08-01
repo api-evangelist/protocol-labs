@@ -1,0 +1,21 @@
+# Protocol Labs
+
+> Protocol Labs is an open-source research and development company founded in 2014 by Juan Benet. It created foundational decentralized web protocols — IPFS, Filecoin, libp2p, and IPLD — and today operates as an innovation network of 750+ startups, funds, accelerators, and open-source projects across web3, AI, robotics, and neurotechnology. Protocol Labs (protocol.ai) is a research and venture organization and does not publish a first-party commercial REST API; its developer surfaces live in separate open-source projects.
+
+## About
+- [Website](https://www.protocol.ai): Company home
+- [Work](https://www.protocol.ai/work/): Research areas and initiatives
+- [Blog](https://www.protocol.ai/blog/): News and updates
+- [Careers](https://www.protocol.ai/join/): Open roles
+- [GitHub](https://github.com/protocol): Protocol Labs GitHub organization
+
+## Projects (separate open-source developer surfaces)
+- [IPFS](https://ipfs.tech): Content-addressed peer-to-peer hypermedia protocol with HTTP APIs
+- [Filecoin](https://filecoin.io): Decentralized storage network with JSON-RPC APIs (Lotus)
+- [libp2p](https://libp2p.io): Modular peer-to-peer networking stack
+- [IPLD](https://ipld.io): Data model for content-addressed, interoperable protocols
+
+## Network
+- [PL R&D](https://plrd.org/): Funds pre-commercial research
+- [PL Capital](https://plcapital.xyz/): Venture-scale investments
+- [PL Network Directory](https://directory.plnetwork.io/teams): Network organizations

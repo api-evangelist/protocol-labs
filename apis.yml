@@ -1,8 +1,15 @@
 aid: protocol-labs
 name: Protocol Labs
-description: Protocol Labs is a company surfaced as a portfolio company of a16z, union-square-ventures,
-  y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: >-
+  Protocol Labs is an open-source research and development company founded in 2014 by Juan Benet,
+  best known for creating foundational decentralized web protocols including IPFS (the InterPlanetary
+  File System), Filecoin (a decentralized storage network), libp2p (a modular peer-to-peer networking
+  stack), and IPLD (a data model for content-addressed systems). Since its founding it has grown into
+  an innovation network connecting more than 750 startups, funds, accelerators, foundations, and
+  open-source projects working across web3, AI, robotics, cryptography, and neurotechnology. Protocol
+  Labs itself (protocol.ai) is a research and venture organization rather than a commercial API
+  provider — it publishes no first-party REST API; its developer surfaces (IPFS HTTP APIs, Filecoin
+  JSON-RPC, libp2p) live in their own separate open-source projects and GitHub organizations.
 url: https://raw.githubusercontent.com/api-evangelist/protocol-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +19,32 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://protocol.ai/images/og-default.jpg
 tags:
 - Company
+- Decentralized Web
+- Peer-to-Peer
+- IPFS
+- Filecoin
+- libp2p
+- Web3
+- Open Source
+- Research and Development
+- Distributed Storage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +53,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://protocol.ai
+  url: https://www.protocol.ai
+- type: GitHubOrganization
+  url: https://github.com/protocol
+- type: Blog
+  url: https://www.protocol.ai/blog/
+- type: Careers
+  url: https://www.protocol.ai/join/
+- type: LLMsTxt
+  url: llms/protocol-labs-llms.txt
+- type: DomainSecurity
+  url: security/protocol-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
