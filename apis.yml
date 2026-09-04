@@ -41,6 +41,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.protocol.ai', status: 308, note: 'declared website redirects to https://pl.xyz/ — a different registrable domain (protocol.ai -> pl.xyz), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
