@@ -2,18 +2,24 @@ generated: '2026-07-20'
 method: searched
 source: live probes of https://protocol.ai/.well-known/*
 host: https://protocol.ai
-note: >-
-  protocol.ai is a corporate/research site with no API discovery surface. All
-  probed .well-known paths 308-redirect to www.protocol.ai and return 404. No
-  documents were found; recorded here for audit completeness (no apis.yml pointer).
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
+note: protocol.ai is a corporate/research site with no API discovery surface. All probed .well-known paths
+  308-redirect to www.protocol.ai and return 404. No documents were found; recorded here for audit completeness
+  (no apis.yml pointer).
+hosts:
+- host: https://protocol.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
